@@ -4,7 +4,8 @@ const config: CapacitorConfig = {
   appId: 'br.com.app.vestapp',
   appName: 'VestApp',
   webDir: 'www',
-  bundledWebRuntime: true
+  bundledWebRuntime: true,
+  overrideUserAgent: "Mozilla/5.0 Google"
 };
 
 export default config;
