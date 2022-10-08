@@ -1,7 +1,8 @@
 {
-  "name": "Vestapp Marketplace",
+  "name": "VestApp",
   "integrations": {
     "capacitor": {}
   },
-  "type": "angular"
+  "type": "angular",
+  "id": "b26d9520"
 }
