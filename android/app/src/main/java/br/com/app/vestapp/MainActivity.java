@@ -1,4 +1,4 @@
-package com.vestapp.br.app;
+package br.com.app.vestapp;
 
 import com.getcapacitor.BridgeActivity;
 
