@@ -32,8 +32,8 @@ export class AppComponent {
   ngOnInit() {
     
     //let target = "_system"; //openWithSystemBrowser
-    let target = "_blank"; //openWithInAppBrowser
-    //let target = "_self"; //openWithCordovaBrowser(
+    //let target = "_blank"; //openWithInAppBrowser
+    let target = "_self"; //openWithCordovaBrowser(
 
     const browser = this.iab.create('https://vestappbr.com.br/', target, this.options);
 

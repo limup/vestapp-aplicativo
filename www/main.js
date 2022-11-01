@@ -92,8 +92,8 @@ var AppComponent = /*#__PURE__*/function () {
     key: "ngOnInit",
     value: function ngOnInit() {
       //let target = "_system"; //openWithSystemBrowser
-      var target = "_blank"; //openWithInAppBrowser
-      //let target = "_self"; //openWithCordovaBrowser(
+      //let target = "_blank"; //openWithInAppBrowser
+      var target = "_self"; //openWithCordovaBrowser(
 
       var browser = this.iab.create('https://vestappbr.com.br/', target, this.options);
       browser.on('loadstop').subscribe(function (event) {});
